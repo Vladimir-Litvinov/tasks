@@ -24,3 +24,21 @@ $task2 = [
     ]
 
 ];
+$task3 = [
+    [
+        'list' => 'Главная',
+        'a_link_tag' => '#123',
+        'link' => 'true'
+    ],
+    [
+        'list' => 'PHP',
+        'a_link_tag' => '#321',
+        'link' => 'true'
+    ],
+    [
+        'list' => 'Функции',
+        'a_link_tag' => '',
+        'link' => 'false'
+    ],
+
+];

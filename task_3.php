@@ -30,19 +30,24 @@
                             <button class="btn btn-panel waves-effect waves-themed" data-action="panel-fullscreen" data-toggle="tooltip" data-offset="0,10" data-original-title="Fullscreen"></button>
                         </div>
                     </div>
+                    <?php require_once 'bd.php'?>
                     <div class="panel-container show">
                         <div class="panel-content">
                             <ol class="breadcrumb page-breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                                <li class="breadcrumb-item"><a href="#">PHP</a></li>
-                                <li class="breadcrumb-item active">Функции</li>
+                                <?php foreach ($task3 as $v): ?>
+                                <?php if ($v['link']): ?>
+                                <li class="breadcrumb-item"><a href="<?= $v['a_link_tag'] ?>"><?php echo $v['list'] ?></a></li>
+                                    <?php else:?>
+                                    <li class="breadcrumb-item active"><?php $v['list']?></li>
+                                <?php endif ?>
+                                <?php endforeach; ?>
                             </ol>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
-        
+
 
         <script src="js/vendors.bundle.js"></script>
         <script src="js/app.bundle.js"></script>
