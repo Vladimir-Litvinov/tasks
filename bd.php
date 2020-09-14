@@ -83,8 +83,7 @@ $task5 = [
         'link_twitter' => 'https://twitter.com/@myplaneticket',
         'text_link' => '@myplaneticket',
         'text_wrap_bootstrap' => 'https://wrapbootstrap.com/user/myorange',
-        'title_contact' => 'Contact Sunny',
-        'banned' => true
+        'title_contact' => 'Contact Sunny'
     ],
     [
 
@@ -95,8 +94,7 @@ $task5 = [
         'link_twitter' => 'https://twitter.com/@atlantez',
         'text_link' => '@atlantez',
         'text_wrap_bootstrap' => 'https://wrapbootstrap.com/user/Walapa',
-        'title_contact' => 'Contact Jos',
-        'banned' => true
+        'title_contact' => 'Contact Jos'
     ],
     [
 
@@ -107,8 +105,7 @@ $task5 = [
         'link_twitter' => 'https://twitter.com/@lodev09',
         'text_link' => '@lodev09',
         'text_wrap_bootstrap' => 'https://wrapbootstrap.com/user/lodev09',
-        'title_contact' => 'Contact Jovanni',
-        'banned' => false
+        'title_contact' => 'Contact Jovanni'
     ],
     [
 
@@ -119,8 +116,7 @@ $task5 = [
         'link_twitter' => 'https://twitter.com/@sildur',
         'text_link' => '@sildur',
         'text_wrap_bootstrap' => 'https://wrapbootstrap.com/user/sildur',
-        'title_contact' => 'Contact Roberto',
-        'banned' => false
+        'title_contact' => 'Contact Roberto'
     ],
 
 
