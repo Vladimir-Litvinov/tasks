@@ -42,3 +42,34 @@ $task3 = [
     ],
 
 ];
+
+$task4 = [
+    [
+        'title' => 'My Tasks',
+        'text' => '130 / 500',
+        'class_css' => 'bg-fusion-400',
+        'width' => '65%',
+        'aria_valuenow' => 65
+    ],
+    [
+        'title' => 'Transfered',
+        'text' => '440 TB',
+        'class_css' => 'bg-success-500',
+        'width' => '34%',
+        'aria_valuenow' => 34
+    ],
+    [
+        'title' => 'Bugs Squashed',
+        'text' => '77%',
+        'class_css' => 'bg-info-400',
+        'width' => '77%',
+        'aria_valuenow' => 77
+    ],
+    [
+        'title' => 'User Testing',
+        'text' => '7 days',
+        'class_css' => 'bg-primary-300',
+        'width' => '84%',
+        'aria_valuenow' => 84
+    ],
+];
