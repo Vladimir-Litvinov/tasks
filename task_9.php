@@ -1,3 +1,13 @@
+<?php
+include_once 'connection.php';
+
+if (isset($_POST['text'])){
+    $sql = "INSERT INTO task9 (text) VALUES ($_POST[text])";
+    $res = mysqli_query($link,$sql);
+};
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,9 +45,9 @@
                         <div class="panel-content">
                             <div class="panel-content">
                                 <div class="form-group">
-                                    <form action="">
+                                    <form action="" method="post">
                                         <label class="form-label" for="simpleinput">Text</label>
-                                        <input type="text" id="simpleinput" class="form-control">
+                                        <input type="text" id="simpleinput" class="form-control" name="text">
                                         <button class="btn btn-success mt-3">Submit</button>
                                     </form>
                                 </div>
